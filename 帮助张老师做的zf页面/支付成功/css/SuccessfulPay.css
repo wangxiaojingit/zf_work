@@ -1,0 +1,25 @@
+
+
+.contentbox{
+    width:6.40rem;
+    height:5.29rem;
+    background:url("../images/bg2.png") center center no-repeat;
+    background-size:cover;
+    position:relative;
+
+} 
+.button{
+    width:2.5rem;
+    height:.75rem;
+    line-height:.75rem;
+    text-align:center;
+    background:#188ae4;
+   
+    font-size:.3rem;
+    color:#fff;
+    position: absolute;
+    bottom:0;
+     left:50%;
+    margin-left:-1.25rem; 
+    border-radius:0.1rem;
+}

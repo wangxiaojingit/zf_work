@@ -1,0 +1,72 @@
+.iconBox{
+    height:2.35rem;
+}
+
+.icon{
+    width:1.18rem;
+    height:1.17rem;
+    background:url("../images/editor.png") center center no-repeat;
+    background-size:cover;
+    margin:.94rem auto 0 auto;
+}
+
+.message{
+    padding:0 0.4rem;
+    box-sizing:border-box;
+}
+.message input{
+    width:100%;
+    height:.85rem;
+    line-height:.85rem;
+    border:1px solid #d0d0d0;
+    border-radius:0.1rem;
+    box-shadow:0 0 0.07rem 0.03rem rgba(121,121,121,.3);
+    margin-bottom:0.42rem;
+    text-indent:0.08rem;
+}
+.regestor{
+    color:#188ae4;
+    font-size:0.24rem;
+}
+.login{
+    height:0.82rem;
+    line-height: 0.82rem;
+    text-align:center;
+    font-size:0.3rem;
+    color:#fff;
+    background:#188ae4;
+    display:block;
+    margin-top:0.45rem;
+    border-radius:0.1rem;
+} 
+
+
+.message  .yzpassword{
+    float:left;
+    width:3.14rem;
+}
+.message .code{
+    float:right;
+    width:2.2rem;
+    height:0.85rem;
+    line-height:0.85rem;
+    text-align:center;
+    display:block;
+    font-weight:bold;
+
+}
+.message .current{
+    background:#ddeefd;
+    border:1px solid #167bcc;
+    color:#167bcc;
+} 
+.message .sureBox{
+    width:0.3rem;
+    height:0.3rem;
+    float:left;
+
+} 
+.sureWrapper>span{
+    float:left;
+    margin-left:0.19rem;
+}

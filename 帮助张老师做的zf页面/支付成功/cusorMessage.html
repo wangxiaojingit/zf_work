@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>课程详情2</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/cursorMessage.css">
+</head>
+<body>
+    <div class="head">
+       课程详情
+       <div class="arrow"></div>
+    </div>
+    <div class="contentbox">
+        <div class="banner"></div>
+        <div class="cursorBox">
+            <div class="top">
+                <div class="topBox">
+                        <span class="introduce current1">课程介绍</span><span class="catalog current2">课程目录</span>
+                </div>
+            </div>
+            <div class="bottom">
+                <!-- 课程介绍 -->
+                <div class="introduceBox" style="display:none">
+                   <h3>vue从理论到精讲实战</h3>
+                   <div class="item">
+                       <span class="btn2">开课时间</span><span class="gray">2016-10-30 开课 </span>
+                   </div>
+                   <div class="item">
+                        <span class="btn2">上课地点</span><span class="gray">珠峰 </span>
+                    </div>
+                    <div class="item">
+                            <span class="btn2">课程价格</span><span class="red">¥2000</span>
+                    </div>
+    
+                </div>
+                <!-- 课程目录的盒子 -->
+                <div class="catalogBox" >
+                    <h3><span class="menu"></span><span>课程目录</span></h3>
+                    <div class="catalogBottom">
+                        <div class="box1 clearfix">
+                                <div class="left">
+                                    <div class="ball"></div>
+                                </div>
+                                <div class="right">
+                                    <h4>第一章</h4>   
+                                    <ul>
+                                        <li>1.第一个小例子，实现了request.querystring功能</li>
+                                        <li> 2.第二个小例子，解决中文乱码的问题</li> 
+                                        <li>3.第三个小例子，NodeJs与Redis实现高并发</li>      
+                                        <li>4.第四个小例子，NodeJs处理Get请求和Post请求</li>  
+                                        <li>5.环境搭建，Hello world归来！</li> 
+                                        <li> 6. Node.js~sails.js~package.json的作用(New)</li>     
+                                        <li>7.Node.js与Sails系列</li>       
+                                        <li>8.Node.js与Sails~项目结构与Mvc实现</li>        
+                                        <li>9.Node.js与Sails~自定义响应体responses</li>
+                                                
+                                                
+                                               
+                                                
+                                                
+                                               
+                                    </ul> 
+                                </div>
+                        </div>
+                        <div class="box1 clearfix">
+                                <div class="left">
+                                    <div class="ball"></div>
+                                </div>
+                                <div class="right">
+                                    <h4>第二章</h4>   
+                                    <ul>
+                                        <li>1.Node.js与Sails~日志机制log</li>
+                                        <li> 2.Node.js与Sails~方法拦截器policies</li> 
+                                        <li>3.Node.js与Sails~Model数据模型</li>      
+                                        <li>4.Node.js与Sails~Model和ORM的持久化</li>  
+                                        <li>5.Node.js与Sails~中间查询语言Waterline</li> 
+                                        <li> 6. Node.js与Express</li>     
+                                    </ul> 
+                                </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <a href="javascript:;" class="btn">报名</a>
+</body>
+</html>
+<script src="js/base.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+ $(function(){
+    //  点击课程介绍的时候，就让课程介绍下面的盒子显示，让课程目录的盒子消失
+    $(".topBox").click(function(e){
+        // console.log(e.target.tagName=="SPAN"&& $(e.target.tagName).hasClass("introduce"));
+        console.log(e.target)
+       
+         if(e.target.tagName=="SPAN" && $(e.target).hasClass("introduce")){
+             // 说明是课程介绍。
+             if(!$(".introduce").hasClass("current2")){
+                $(".introduce").addClass("current2").siblings().removeClass("current2").addClass("current1");
+                $(".bottom .introduceBox").show().siblings().hide();
+
+             }
+            
+           
+         }else if(e.target.tagName=="SPAN" && $(e.target).hasClass("catalog")){
+             //如果点击是课程目录
+            $(".catalog").addClass("current2").siblings().removeClass("current2").addClass("current1");
+                $(".bottom .catalogBox").show().siblings().hide();
+         }
+    })
+ })
+</script>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+   <!--头部-->
+   <header class="clearfix">
+       <h1 class="logo">
+           <a href=""></a>
+           <i>珠峰培训</i>
+       </h1>
+       <a class="menu" href=""></a>
+   </header>
+   <!--banner-->
+   <section class="banner">
+       <div class="swiper-container">
+           <div class="swiper-wrapper">
+               <div class="swiper-slide"></div>
+               <div class="swiper-slide"></div>
+               <div class="swiper-slide"></div>
+           </div>
+           <!-- 如果需要分页器 -->
+           <div class="swiper-pagination"></div>
+
+
+       </div>
+   </section>
+   <!--课程-->
+   <section class="myClass clearfix">
+       <span class="bookIcon"></span>
+       <h3>我的课程</h3>
+   </section>
+   <!--课程列表-->
+   <ul class="lists">
+       <li>
+           <a href="">
+               <section class="top"></section>
+               <section class="bottom">
+                   <p>Vue.js从理论精讲到项目实战课程</p>
+                   <p>¥599元</p>
+               </section>
+           </a>
+
+       </li>
+       <li>
+           <a href="">
+               <section class="top"></section>
+               <section class="bottom">
+                   <p>Vue.js从理论精讲到项目实战课程</p>
+                   <p>¥599元</p>
+               </section>
+           </a>
+
+       </li>
+       <li>
+           <a href="">
+               <section class="top"></section>
+               <section class="bottom">
+                   <p>Vue.js从理论精讲到项目实战课程</p>
+                   <p>¥599元</p>
+               </section>
+           </a>
+
+       </li>
+       <li>
+           <a href="">
+               <section class="top"></section>
+               <section class="bottom">
+                   <p>Vue.js从理论精讲到项目实战课程</p>
+                   <p>¥599元</p>
+               </section>
+           </a>
+
+       </li>
+       <li>
+           <a href="">
+               <section class="top"></section>
+               <section class="bottom">
+                   <p>Vue.js从理论精讲到项目实战课程</p>
+                   <p>¥599元</p>
+               </section>
+           </a>
+
+       </li>
+       <li>
+           <a href="">
+               <section class="top"></section>
+               <section class="bottom">
+                   <p>Vue.js从理论精讲到项目实战课程</p>
+                   <p>¥599元</p>
+               </section>
+           </a>
+
+       </li>
+
+   </ul>
+   <!--底部-->
+   <ul class="footer clearfix">
+      <li class="index current " id="index">
+          <a href="">
+              <div class="itemIcon"></div>
+              <p>首页</p>
+          </a>
+      </li>
+       <li class="index " id="kecheng">
+           <a href="">
+               <div class="itemIcon"></div>
+               <p>我的课程</p>
+           </a>
+       </li>
+       <li class="index " id="center">
+           <a href="">
+               <div class="itemIcon"></div>
+               <p>个人中心</p>
+           </a>
+       </li>
+   </ul>
+</body>
+</html>
+<script>
+    function refreshRem() {
+        var desW = 640,
+            winW = document.documentElement.clientWidth||document.body.clientWidth;
+        ratio = winW / desW;
+        document.documentElement.style.fontSize = ratio * 100 + 'px';
+    }
+    refreshRem();
+    window.addEventListener('resize', refreshRem);
+
+</script>
+<script src="js/swiper.min.js"></script>
+<script>
+    window.onload=function(){
+        var mySwiper = new Swiper ('.swiper-container', {
+            loop: true, // 循环模式选项
+            autoplay:true,// 自动播放
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            }
+        })
+    }
+</script>

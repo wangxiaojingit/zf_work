@@ -1,0 +1,63 @@
+.footer{
+    width:100%;
+    height:1.07rem;
+    background:#fff;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    border-top:1px solid #ebebeb;
+}
+.footer>li{
+    width:33.33%;
+    float:left;
+}
+.footer>li>a{
+    display:block;
+    color:#ababab;
+}
+.footer>li .itemIcon{
+    width:0.46rem;
+    height:0.32rem;
+    background:url("../images/index1.png") center center no-repeat;
+    background-size:cover;
+    margin:0 auto;
+}
+.footer>li p{
+    text-align: center;
+}
+
+.footer .index .itemIcon{
+    margin-top:0.21rem;
+    margin-bottom:0.08rem;
+}
+#kecheng .itemIcon{
+    width:0.38rem;
+    height:0.39rem;
+    background-image: url("../images/class_1.png");
+    margin-top:0.17rem;
+    margin-bottom:0.11rem;
+}
+#center .itemIcon{
+    width:0.36rem;
+    height:0.36rem;
+    background-image: url("../images/center1.png");
+    margin-top:0.17rem;
+    margin-bottom:0.13rem;
+}
+
+/*.footer li:nth-child(1).current .itemIcon*/
+.footer li:nth-child(1).current .itemIcon{
+    background-image: url("../images/index2.png");
+}
+
+.footer li.current a{
+    color:#188ae4;
+}
+
+#kecheng.current .itemIcon{
+    background-image: url("../images/class_2.png");
+}
+
+#center.current .itemIcon{
+    background-image: url("../images/center2.png");
+}

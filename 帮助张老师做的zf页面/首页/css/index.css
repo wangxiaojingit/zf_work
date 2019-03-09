@@ -1,0 +1,195 @@
+html{
+    font-size:100px;
+}
+
+body{
+    background:#f8f8f8;
+}
+
+
+header{
+    height:1.12rem;
+    background:#252525;
+    padding:0 .23rem 0 0.16rem;
+    box-sizing: border-box;
+}
+header .logo{
+    float:left;
+    height:.62rem;
+    overflow: hidden;
+    margin-top:.23rem;
+}
+header .logo>a{
+    width:2.1rem;
+    height:.62rem;
+    display: block;
+    background:url("../images/logo.png") center center no-repeat;
+    background-size:cover;
+}
+header .logo>i{
+    margin-left:-3000px;
+}
+header .menu{
+    float:right;
+    width:.36rem;
+    height:.32rem;
+    background:url("../images/menu.png") center center no-repeat;
+    background-size:cover;
+    margin-top:0.4rem;
+}
+.banner{
+    height:3.41rem;
+    background:pink;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-wrapper .swiper-slide{
+    height:100%;
+    background:url("../images/banner.png") center center no-repeat;
+    background-size:cover;
+}
+
+.myClass .bookIcon{
+    float:left;
+    width:0.29rem;
+    height:0.35rem;
+    background:url("../images/book.png") center center no-repeat;
+    background-size:cover;
+    margin-right:0.12rem;
+}
+.myClass h3{
+    float:left;
+    color:#4c4b4b;
+    font-size:0.26rem;
+    font-weight:bold;
+    height:0.35rem;
+    line-height: .35rem;
+}
+.myClass{
+    padding:0.32rem 0.2rem;
+    box-sizing: border-box;
+
+}
+.lists{
+    padding:0 0.2rem;
+    box-sizing: border-box;
+    margin-bottom: 1.84rem;
+}
+.lists>li{
+    box-shadow: 0 0.05rem 0.06rem  rgba(178,178,178,.75);
+    margin-bottom:0.45rem;
+}
+.lists>li>a{
+    display:block;
+}
+.lists>li>a>.top{
+    height:2.8rem;
+    background:url("../images/class1.png") center center no-repeat;
+    background-size:cover;
+}
+
+.lists>li:nth-child(2)>a>.top{
+    
+    background-image:url("../images/class2.png");
+    background-size:cover;
+}
+.lists>li:nth-child(3)>a>.top{
+    
+    background-image:url("../images/class3.png");
+    background-size:cover;
+}
+.lists>li:nth-child(4)>a>.top{
+    
+    background-image:url("../images/class4.png");
+    background-size:cover;
+}
+.lists>li:nth-child(5)>a>.top{
+    
+    background-image:url("../images/class5.png");
+    background-size:cover;
+}
+.lists>li:nth-child(6)>a>.top{
+    
+    background-image:url("../images/class6.png");
+    background-size:cover;
+}
+.bottom{
+    padding:0.3rem 0 0.35rem;
+    box-sizing: border-box;
+    background:#fff;
+}
+.bottom p{
+    color:#777777;
+    font-size:0.28rem;
+    text-align: center;
+}
+.bottom p:nth-child(2){
+    color:#ed3a3a;
+    margin-top:.25rem;
+
+}
+
+.footer{
+    width:100%;
+    height:1.07rem;
+    background:#fff;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+}
+.footer>li{
+    width:33.33%;
+    float:left;
+}
+.footer>li>a{
+    display:block;
+    color:#ababab;
+}
+.footer>li .itemIcon{
+    width:0.46rem;
+    height:0.32rem;
+    background:url("../images/index1.png") center center no-repeat;
+    background-size:cover;
+    margin:0 auto;
+}
+.footer>li p{
+    text-align: center;
+}
+
+.footer .index .itemIcon{
+    margin-top:0.21rem;
+    margin-bottom:0.08rem;
+}
+#kecheng .itemIcon{
+    width:0.38rem;
+    height:0.39rem;
+    background-image: url("../images/class_1.png");
+    margin-top:0.17rem;
+    margin-bottom:0.11rem;
+}
+#center .itemIcon{
+    width:0.36rem;
+    height:0.36rem;
+    background-image: url("../images/center1.png");
+    margin-top:0.17rem;
+    margin-bottom:0.13rem;
+}
+
+/*.footer li:nth-child(1).current .itemIcon*/
+.footer li:nth-child(1).current .itemIcon{
+    background-image: url("../images/index2.png");
+}
+
+.footer li.current a{
+    color:#188ae4;
+}
+
+#kecheng.current .itemIcon{
+    background-image: url("../images/class_2.png");
+}
+
+#center.current .itemIcon{
+    background-image: url("../images/center2.png");
+}

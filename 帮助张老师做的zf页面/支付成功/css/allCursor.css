@@ -1,0 +1,93 @@
+.contentbox{
+    padding:0 .21rem;
+    box-sizing:border-box;
+
+}
+.contentbox h3{
+   font-size:0.32rem;
+   color:#383838;
+  
+   margin-bottom:0.3rem;
+}
+.weixin{
+    /* width:100%;
+    height:1.77rem; */
+    display:flex;
+    flex-direction: row;
+}
+
+.weixinLeft{
+    width:2.79rem;
+    height:1.77rem;
+    background:url("../images/weixin.png") center center no-repeat;
+    background-size:cover;
+    border-radius:0.1rem;
+   /* flex:0 1 2.79rem; */
+}
+.weixinRight{
+    /* flex: 1; */
+    display:flex;
+    flex-direction: column; 
+    justify-content:space-between;
+    /* align-items: center; */
+   
+}
+.weixinRight>p{
+   
+    text-indent:.1rem;
+   
+} 
+
+.gray{
+    color:gray;
+    margin-left:0.1rem;
+} 
+
+.message{
+    margin-top:0.28rem;
+    border-top:1px solid #ebebeb;
+} 
+.money{
+    margin-top:0.22rem;
+    margin-bottom:0.75rem;
+    text-align:right;
+    font-size:0.32rem;
+    color:#ef4d43;
+    font-weight:bold;
+}
+.btn{
+    height:0.82rem;
+    line-height:0.82rem;
+    text-align:center;
+    color:#fff;
+    font-weight:bold;
+    background:#56a9eb;
+    border-radius:0.1rem;
+}
+
+body{
+    background:#f2f1f1;
+}
+
+.contentboxTop span{
+   display:inline-block;
+   text-align:center;
+}
+.contentboxTop{
+   padding:0.38rem 0;
+}
+.icon_menu{
+    width:0.27rem;
+    height:0.21rem;
+    background:url("../images/menu.png") center center no-repeat;
+    background-size:cover;
+    margin-right:0.15rem;
+} 
+.classBox{
+    background:#fff;
+    
+    border-radius:0.1rem;
+    padding: 0.25rem 0.3rem  0.45rem 0.3rem;
+    box-sizing:border-box;
+    margin-bottom:0.2rem;
+}

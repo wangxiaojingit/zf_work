@@ -1,0 +1,41 @@
+.iconBox{
+    height:3.35rem;
+}
+
+.icon{
+    width:1.22rem;
+    height:1.22rem;
+    background:url("../images/login_bg1.png") center center no-repeat;
+    background-size:cover;
+    margin:.94rem auto 0 auto;
+}
+
+.message{
+    padding:0 0.4rem;
+    box-sizing:border-box;
+}
+.message input{
+    width:100%;
+    height:.85rem;
+    line-height:.85rem;
+    border:1px solid #d0d0d0;
+    border-radius:0.1rem;
+    box-shadow:0 0 0.07rem 0.03rem rgba(121,121,121,.3);
+    margin-bottom:0.42rem;
+    text-indent:0.08rem;
+}
+.regestor{
+    color:#188ae4;
+    font-size:0.24rem;
+}
+.login{
+    height:0.82rem;
+    line-height: 0.82rem;
+    text-align:center;
+    font-size:0.3rem;
+    color:#fff;
+    background:#188ae4;
+    display:block;
+    margin-top:0.45rem;
+    border-radius:0.1rem;
+}

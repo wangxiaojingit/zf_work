@@ -1,0 +1,80 @@
+.contentbox .top{
+    height:4.45rem;
+    background: url("../images/user_bg.png") center center no-repeat;
+    background-size:cover;
+    padding-top:1.28rem;
+    box-sizing: border-box;
+}
+.photo{
+    width:1.69rem;
+    height:1.68rem;
+    background:url("../images/smile.png") center center no-repeat;
+    background-size:cover;
+    margin:1.9rem auto 1.3rem auto;
+}
+.top p{
+    font-size:0.24rem;
+    color:#777777;
+    text-align:center;
+}
+
+.btn{
+    background:#188ae4;
+    font-size:0.3rem;
+    color:#fff;
+    text-align:center;
+    width:2.5rem;
+    height:0.8rem;
+    line-height:0.8rem;
+    margin:0.35rem auto;
+
+}
+.likegs9{
+    width:1.26rem;
+    height:0.43rem;
+    line-height:0.43rem;
+    border-radius:.1rem;
+    background:#fff;
+    color:#188ae4;
+    font-size:0.24rem;
+    font-weight:bold;
+    text-align:center;
+    margin:0 auto;
+    box-shadow:0 0.02rem 0.05rem 0 rgba(5,70,121,.6);
+} 
+.bottom{
+    padding:0.54rem;
+    box-sizing:border-box;
+} 
+
+.bottomUl li{
+    height:1.17rem;
+    line-height:1.17rem;
+    border-bottom:1px solid #ebebeb;
+}
+
+.bottomUl li>span{
+float:left;
+font-size:0.24rem;
+color:#383838;
+
+}
+.bottomUl li>.liIcon{
+    width:0.35rem;
+    height:0.37rem;
+    background:url("../images/problem.png") center center no-repeat;
+    display:block;
+    background-size:cover;
+    margin-top:0.4rem;
+    margin-right:0.3rem;
+    
+}
+.bottomUl li:nth-child(2)>.liIcon{
+    background-image:url("../images/about.png");
+    width:0.35rem;
+}
+.bottomUl li:nth-child(3)>.liIcon{
+    width:0.31rem;
+    background-image:url("../images/password.png");
+} 
+
